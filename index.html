@@ -1,258 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+	Bent - Bootstrap Landing Page Template by Dcrazed
+	Site: https://dcrazed.com/bent-app-landing-page-template/
+	Free for personal and commercial use under GNU GPL 3.0 license.
+-->
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Subasta de NES Classic Edition por offertau">
-    <meta name="author" content="offertau">
+    <title>Offertau | Subastas de los mejores productos a precios insuperables</title>
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
 
-    <title>Subasta de NES Classic Edition</title>
-
-    <!-- Bootstrap Core CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/small-business.css" rel="stylesheet">
+    <!-- Owl Carousel Assets -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
 
+
+    <!-- Pixeden Icon Font -->
+    <link rel="stylesheet" href="css/Pe-icon-7-stroke.css">
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- PrettyPhoto -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 
 <body>
-
-    <!-- Page Content -->
-    <div class="container">
-        <!-- Call to Action Well -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="panel panel-info">
-					<div class="panel-body text-center">
-						<h2>Subasta en:</h2>
-						 <h1 id="countbox1"></h1>
-					</div>
-                </div>
-            </div>
-            <!-- /.col-lg-12 -->
+    <!-- PRELOADER -->
+    <div class="spn_hol">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
         </div>
-        <!-- /.row -->
-
-
-        <!-- Heading Row -->
-        <div class="row">
-            <div class="col-md-8">
-                <img class="img-responsive img-rounded" src="img/header.jpg" alt="NES Classic Edition, subasta">
-            </div>
-            <!-- /.col-md-8 -->
-            <div class="col-md-4">
-                <h1>Offertau</h1>
-                <p><b>NES Classic Edition en subasta!</b>, la mejor consola de todos los tiempos por un mínimo precio. Compras una entrada para la 
-					subasta y el 18 de Agosto compites por llevarte una NES mini totalmente nueva con los 30 mejores juegos preinstalados.</p>
-				<p>Esta consola  en el mercado cuesta $600.000 y puedes llevartela por máximo <b>$80.000</b> (Valor de la entrada +  valor máximo de la oferta ganadora)</p>
-                <a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043">Comprar entrada</a>
-                <!--a href="#" class="btn btn-danger btn-lg disabled" role="button">Ingresar</a-->
-            </div>
-            <!-- /.col-md-4 -->
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Content Row -->
-        <div class="row">
-            <div class="col-md-3">
-                <h2>Cerrada</h2>
-                <p>Solo un pequeño grupo de personas podrán participar, las entradas son limitadas. Valor de la entrada <b>10USD</b>.</p>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-3">
-                <h2>Progresiva</h2>
-                <p>Los participantes solo pueden incrementar el precio en <b>$500</b> pesos por oferta. Puedes hacer tantas ofertas como quieras</p>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-3">
-                <h2>Precio máximo</h2>
-                <p>El precio de reserva del NES Classic Edition es de <b>$50.000</b> quien haga primero la oferta por ese precio es el ganador!.</p>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-md-3">
-                <h2>Tiempo límite</h2>
-                <p>La subasta durará <b>máximo 10 minutos. Si no se ha llegado al precio máximo</b>, quien tenga la mejor oferta al terminar el tiempo es el ganador!.</p>
-            </div>
-            <!-- /.col-md-4 -->
-            <div class="col-lg-12 text-center">
-				<a class="btn btn-primary btn-lg btn-block" href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043">Comprar entrada</a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-		<!-- Description Row -->
-		<div class="row">
-            <div class="col-lg-12">
-				  <h1>¿Cómo funciona?</h1>
-				  <p><ol class="list-group">
-						<li class="list-group-item list-group-item-success">Compras tu entrada <span class="badge">10 USD</span></li>
-						<li class="list-group-item list-group-item-success">Ingresas a offertau.com con tus datos de Eventbrite <span class="badge">El ingreso sólo se abre el dia y la hora de la subasta</span></li>
-						<li class="list-group-item list-group-item-success">Compites por la NES haciendo ofertas sucesivas <span class="badge">Puedes hacer tantas ofertas como quieras</span>)</li>
-						<li class="list-group-item list-group-item-success">Ganas <span class="badge">Precio máximo o Tiempo límite</span></li>
-						<li class="list-group-item list-group-item-success">Pagas el valor de tu oferta <span class="badge">Mercadopago</span></li>
-						<li class="list-group-item list-group-item-success">Recibes el articulo <span class="badge">Mercadoenvios</span></li>
-					</ol>	
-				  </p>
-            </div>
-            <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-
-		<section>
-				<h1>NES Classic Edition</h1>
-				<p><span style="font-size: medium;">Una consola cl&aacute;sica de Nintendo nueva en subasta cerrada con un precio m&aacute;ximo.</span></p>
-				<p><span style="font-size: medium;"><iframe width="560" height="315" src="https://www.youtube.com/embed/62bI0zItF6g" frameborder="0" allowfullscreen></iframe><br /></span></p>
-				<p><span style="font-size: medium;">Este es un articulo coleccionable, de manera inesperada e inexplicable Nintendo cancel&oacute; su producci&oacute;n solo 5 meses despu&eacute;s de lanzada al mercado.</span></p>
-				<p><span style="font-size: xx-large; color: #000000;">&iquest;C&oacute;mo la obtengo?</span></p>
-				<p><span style="font-size: medium;">Offertau hace una subasta en linea donde compites subiendo tu oferta progresivamente, quien alcance primero el precio de reserva o quien haga la mejor oferta al terminar el tiempo de subasta se lleva<span style="font-size: medium;"> la NES Classic Edition.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;Progresivamente?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;">Cada persona puede aumentar su oferta por la <span style="font-size: medium;"><span style="font-size: medium;">NES Classic Edition</span></span> tantas veces como quiera, sin embargo, cada oferta solo podr&aacute; subir en $500 (Quinientos pesos colombianos) el valor del articulo en el momento, de esa forma garantizamos que nadie puede ofrecer el precio de reserva de entrada y deje a los demas participantes fuera al empezar la subasta.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;Precio de reserva?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;">Offertau garantiza que el <strong>precio m&aacute;ximo</strong> de la NES Classic Edition durante la subasta ser&aacute; de <strong>$50.000 pesos</strong> colombianos, es decir, que la primera persona que oferte ese precio ser&aacute; el ganador sin importar si a&uacute;n queda tiempo <span style="font-size: medium;"><span style="font-size: medium;">de subasta</span></span>.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;Tiempo de subasta?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;">La subasta se cierra de forma autom&aacute;tica 10 (diez) minutos despu&eacute;s de iniciada, (<strong>pro tip</strong>: <em>agrega el evento a google calendar una vez compres tu entrada</em>), si no se ha alcanzado el precio de reserva, el ganador ser&aacute; quien haga la &uacute;ltima oferta m&aacute;s alta antes de cerrar la subasta.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;Entrada?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;">Las subastas de offertau son cerradas, es decir que se se requiere comprar una de las pocas entradas disponibles para poder participar, de esa manera nos aseguramos que solo un grupo peque&ntilde;o de personas que tienen inter&eacute;s real en el art&iacute;culo participe.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;C&oacute;mo compro mi entrada?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;"><a href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043">Aquí</a> puedes registrarte para el evento y pagar tu entrada con tu tarjeta de cr&eacute;dito, el precio de la entrada es &uacute;nico y no hay mas que unas pocas disponibles.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;C&oacute;mo hago el pago cuando gane?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;">Offertau te envia por correo un enlace para que puedas pagar usando Mercadopago.</span></span></p>
-				<p><span style="font-size: x-large; color: #000000;">&iquest;C&oacute;mo hacen el envio?</span></p>
-				<p><span style="font-size: medium;"><span style="font-size: medium;">Offertau te envia por Mercadoenvios la NES Classic Edition el mismo d&iacute;a de la subasta y te envia por correo el n&uacute;mero de gu&iacute;a para que puedas hacer seguimiento de la llegada.</span></span></p>
-				<p><br /></p>
-		</section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Offertau 2017. Bogotá - Colombia</p>
-                </div>
-            </div>
-        </footer>
-
     </div>
-    <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+ <!-- END PRELOADER -->
 
-    <!-- Bootstrap Core JavaScript -->
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+    <section class="header parallax home-parallax page" id="HOME">
+        <h2></h2>
+        <div class="section_overlay">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Cambiar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="Offertau, subastas de los mejores productos y servicios a los mejores precios">
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- NAV -->
+                            <li><a href="#HOME">INICIO</a> </li>
+                            <li><a href="#FEATURES">¿CÓMO FUNCIONA?</a></li>
+                            <li><a href="#ABOUT">NES</a> </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container- -->
+            </nav>
+
+            <div class="container home-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo text-center">
+                                <!-- LOGO -->
+                            <img height="55" src="images/logo.png" alt="Offertau, subastas de los mejores productos y servicios a los mejores precios">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="home_text">
+                            <!-- TITLE AND DESC -->
+                            <h1>Subastamos una NES Classic Edition</h1>
+                            <p>Llévatela por solo $50.000 el 18 de Agosto de 2017 a las 12:30 GMT-5</p>
+
+                            <div class="download-btn">
+                            <!-- BUTTON -->
+                                <a class="btn home-btn wow fadeInLeft" href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043" target="_blank">Comprar entrada</a>
+                                <a class="tuor btn wow fadeInRight" href="#FEATURES">Quiero saber más <i class="fa fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="home-iphone">
+                            <img src="images/NES_home.png" alt="NES Classic Edition en subasta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END HEADER SECTION -->
+
+
+<!-- =========================
+     START FEATURES
+============================== -->
+    <section id="FEATURES" class="features page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- FEATURES SECTION TITLE -->
+                    <div class="section_title wow fadeIn" data-wow-duration="1s">
+                        <h2>Cómo funciona Offertau?</h2>
+                        <p>Hacemos subastas cerradas, progresivas, con precio tope y límite de tiempo. Nos interesa que compitas en igualdad de condiciones por los mejores articulos a precios razonables.</p>
+                    </div>
+                    <!-- END FEATURES SECTION TITLE -->
+                </div>
+            </div>
+        </div>
+
+        <div class="feature_inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
+                        <!-- FEATURE -->
+
+                        <div class="left_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-like"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3>Subastas cerradas<span>/</span></h3>
+                            <p>En nuestras subastas sólo participan las personas con entrada, hay una cantidad limitada de entradas</p>
+                        </div>
+
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-science"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3>Progresiva<span>/</span></h3>
+                            <p>Las ofertas empiezan en cero $0 y aumentan siempre en un valor fijo</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="left_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-look"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3>Precio de reserva<span>/</span></h3>
+                            <p>Cuando una oferta alcanza ese valor el participante es declarado ganador y no se reciben más ofertas.</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature_iphone">
+                            <!-- FEATURE PHONE IMAGE -->
+                            <img class="wow bounceIn" data-wow-duration="1s" src="images/advantages.jpg" alt="Ventajas de las subastas de offertau, mejores articulos, precios bajos, entrega segura">
+                        </div>
+                    </div>
+                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-monitor"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><span>/</span>Límite de tiempo</h3>
+                            <p>Puedas hacer ofertas en un periodo de tiempo corto</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-phone"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><span>/</span>Pago seguro</h3>
+                            <p>Tiene varias opciones para hacer el pago del articulo</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+
+
+                        <!-- FEATURE -->
+                        <div class="right_single_feature">
+                            <!-- ICON -->
+                            <div><span class="pe-7s-gleam"></span></div>
+
+                            <!-- FEATURE HEADING AND DESCRIPTION -->
+                            <h3><span>/</span>Envío seguro</h3>
+                            <p>Te enviamos el articulo el mismo día de la subasta</p>
+                        </div>
+                        <!-- END SINGLE FEATURE -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FEATURES SECTION -->
+
+
+
+<!-- =========================
+     START CALL TO ACTION
+============================== -->
+    <div class="call_to_action">
+        <div class="container">
+            <div class="row wow fadeInLeftBig" data-wow-duration="1s">
+                <div class="col-md-9">
+                    <p>La subasta del NES Classic Edition se realizará en <span id="countbox1"></span></p>
+                </div>
+                <div class="col-md-3">
+                    <a class="btn btn-primary btn-action" href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043" role="button">Comprar entrada</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END CALL TO ACTION -->
+
+
+
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+
+
+    <section class="about page" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- ABOUT US SECTION TITLE-->
+                    <div class="section_title">
+                        <h2>NES Classic Edition</h2>
+                        <p>La consola que todos recordamos y que todos deseamos tener cuando niños. Ahora en versión mini con 30 juegos presintalados.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="inner_about_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                        <!-- PHONE -->
+                            <img src="images/NES_hand.jpg" alt="Subasta de NES Classic Edition, solo en offertau, precio insuperable">
+                        </div>
+                    </div>
+                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                        <!-- TITLE -->
+                        <div class="inner_about_title">
+                            <h2>NES Classic Edition en <br> Offertau</h2>
+                            <p>Nintendo en 2016 reeditó la NES presentandola al mercado y fue un rotundo éxito, sin embargo, sin explicación alguna la sacó del mercado sólo 5 meses después, ahora es un artículo de colección para todos los amantes de Nintendo.</p>
+                        </div>
+                        <div class="inner_about_desc">
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
+                                <!-- ICON -->
+                                <div><i class="pe-7s-timer"></i></div>
+                                <!-- HEADING DESCRIPTION -->
+                                <h3>Duración de la subasta</h3>
+                                <p>Tienes 10 minutos para realizar tus ofertas el 18 de Agosto de 2017 desde las 12:30 GMT-5</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s">
+                                <!-- ICON -->
+                                <div><i class="pe-7s-target"></i></div>
+                                <!-- HEADING DESCRIPTION -->
+                                <h3>Precio de reserva</h3>
+                                <p>El precio máximo de la NES será de $50.000 (cincuenta mil pesos Colombianos)</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+
+                            <!-- SINGLE DESC -->
+                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s">
+                                <!-- ICON -->
+                                <div><i class="pe-7s-stopwatch"></i></div>
+                                <!-- HEADING DESCRIPTION -->
+                                <h3>Incrementos</h3>
+                                <p>Las ofertas empiezan en $0 y suben en $500 (quinientos pesos Colombianos)</p>
+                            </div>
+                            <!-- END SINGLE DESC -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow fadeInLeftBig">
+                    <!-- VIDEO LEFT TITLE -->
+                        <div class="video_title">
+                            <h2>La mejor versión <br>de NES</h2>
+                            <p>La NES Classic Edition mejora la fidelidad de los gráficos de antaño, incluye guardado de cada juego en cualquier punto y capacidad de regresar cuantas veces quieras.</p>
+                        </div>
+                        <div class="video-button">
+                            <!-- BUTTON -->
+                            <a class="btn home-btn wow fadeInLeft" href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043" target="_blank">Comprar entrada</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInRightBig">
+                         <!-- VIDEO -->
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H-d6Ta7ivqQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+
+
+
+ <!-- =========================
+     START TESTIMONIAL SECTION
+============================== -->
+
+    <section id="TESTIMONIAL" class="testimonial parallax">
+        <div class="section_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow bounceInDown">
+                        <div id="carousel-example-caption-testimonial" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/step1_ticket.jpg" alt="Compras tu entrada para la subasta de offertau">
+                                                <div class="testimonial_caption">
+                                                   <!-- DESCRIPTION -->  
+                                                    <h2>Compras tu entrada</h2>
+                                                    <h4><span>Por solo USD 10,</span> puedes participar en la subasta</h4>
+                                                    <p>Para participar en la subasta debes comprar tu entrada en <a href="https://www.eventbrite.com/e/entradas-subasta-nes-classic-edition-36871966043" target="_blank">Eventbrite</a> por solo USD 10, hay un número limitado de entradas así tienes más opciones de ganar la subasta</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                 <!-- IMAGE -->
+                                                <img src="images/step2_bid.jpg" alt="Compites por ganar el NES en offertau">
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Compites en la subasta</h2>
+                                                    <h4><span>Haces tus ofertas,</span> con solo un clic</h4>
+                                                    <p>Cada oferta sube el valor del articulo en $500 pesos, de esa forma garantizamos una competencia justa. El ganador de la subasta es la persona que haga la primer oferta con el valor de reserva ($50.000) o quien haya hecho la mejor oferta al terminar el tiempo (10 minutos).</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <!-- IMAGE -->
+                                                <img src="images/step3_deliver.jpg" alt="Recibes tu articulo desde Offertau hasta tu casa">
+                                                <div class="testimonial_caption">
+                                                <!-- DESCRIPTION --> 
+                                                    <h2>Recibes tu articulo</h2>
+                                                    <h4><span>Pagas el valor del articulo,</span> Recibes en tu casa</h4>
+                                                    <p>Al terminar la subasta Offertau te contacta para que puedas pagar el valor de tu oferta y recibas por correo tu articulo!. Tu pago y la entrega de tu artículo están asegurados.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- END TESTIMONIAL SECTION -->
+
+
+<!-- =========================
+     FOOTER 
+============================== -->
+
+    <section class="copyright">
+        <h2></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copy_right_text">
+                    <!-- COPYRIGHT TEXT -->
+                        <p>Copyright Offertau &copy; 2017. Todos los derechos reservados.</p>        
+                        <p>A theme by <a href="https://dcrazed.com/">Dcrazed</a></p>
+                    </div>
+                     
+                </div>
+
+                <div class="col-md-6">
+                    <div class="scroll_top">
+                        <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER -->
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
-    <script type="text/javascript">
-		//###################################################################
-		// Author: ricocheting.com
-		// Version: v3.1
-		// Date: 2017-01-03
-		// Description: displays the amount of time until the "dateFuture" entered below.
-
-		var CDown = function() {
-			this.state=0;// if initialized
-			this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
-			this.interval=null;// setInterval object
-		}
-
-		CDown.prototype = {
-			init: function(){
-				this.state=1;
-				var self=this;
-				this.interval=window.setInterval(function(){self.tick();}, 1000);
-			},
-			add: function(date,id){
-				this.counts.push({d:date,id:id});
-				this.tick();
-				if(this.state==0) this.init();
-			},
-			expire: function(idxs){
-				for(var x in idxs) {
-					this.display(this.counts[idxs[x]], "Now!");
-					this.counts.splice(idxs[x], 1);
-				}
-			},
-			format: function(r){
-				var pre='',post='',divide=', ',
-					out="";
-				if(r.d != 0){out += pre+r.d +" "+((r.d==1)?"dia":"dias")+post+divide;}
-				if(r.h != 0){out += pre+r.h +" "+((r.h==1)?"hora":"horas")+post+divide;}
-				out += pre+r.m +" "+((r.m==1)?"min":"mins")+post+divide;
-				out += pre+r.s +" "+((r.s==1)?"seg":"segs")+post+divide;
-
-				return out.substr(0,out.length-divide.length);
-			},
-			math: function(work){
-				var	y=w=d=h=m=s=ms=0;
-
-				ms=(""+((work%1000)+1000)).substr(1,3);
-				work=Math.floor(work/1000);//kill the "milliseconds" so just secs
-
-				y=Math.floor(work/31536000);//years (no leapyear support)
-				w=Math.floor(work/604800);//weeks
-				d=Math.floor(work/86400);//days
-				work=work%86400;
-
-				h=Math.floor(work/3600);//hours
-				work=work%3600;
-
-				m=Math.floor(work/60);//minutes
-				work=work%60;
-
-				s=Math.floor(work);//seconds
-
-				return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
-			},
-			tick: function(){
-				var now=(new Date()).getTime(),
-					expired=[],cnt=0,amount=0;
-
-				if(this.counts)
-				for(var idx=0,n=this.counts.length; idx<n; ++idx){
-					cnt=this.counts[idx];
-					amount=cnt.d.getTime()-now;//calc milliseconds between dates
-
-					// if time is already past
-					if(amount<0){
-						expired.push(idx);
-					}
-					// date is still good
-					else{
-						this.display(cnt, this.format(this.math(amount)));
-					}
-				}
-
-				// deal with any expired
-				if(expired.length>0) this.expire(expired);
-
-				// if no active counts, stop updating
-				if(this.counts.length==0) window.clearTimeout(this.interval);
-				
-			},
-			display: function(cnt,msg){
-				document.getElementById(cnt.id).innerHTML=msg;
-			}
-		};
-
-		window.onload=function(){
-			var cdown = new CDown();
-
-			cdown.add(new Date(2017,7,18,10,0,0), "countbox1");
-		};
-		</script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.ajaxchimp.langs.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
 
 
 </body>
-
 </html>
